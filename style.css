@@ -1,0 +1,84 @@
+/*
+    Theme Name: Timer Agency
+    Version: 1.0
+    Author: Wasek Bellah
+    Author URI: https://wasekbellah.com
+    Description: This is a Timer Agency Theme. Template Taken from https://themefisher.com/products/timer-responsive-multipage-agency-template/
+    License: Themefisher
+    License URI: https://themefisher.com/license/
+*/
+
+/* Menu */
+.navbar-nav li a .caret{
+    display: none;
+}
+.dropdown > a.dropdown-toggle > span.caret{
+    display: inline-block !important;
+}
+
+@media only screen and (max-width: 991px){
+    .about-feature .block{
+        width: inherit;
+    }
+}
+
+.sr_only{
+    position: absolute;
+    left: -99999px;
+}
+
+.main_pagination{
+    margin-top: 50px;
+}
+.main_pagination > div{
+    padding: 0;
+}
+.main_pagination > div > a{
+    background: #02bdd5;
+    color: #fff;
+    padding: 8px 18px;
+    border-radius: 0;
+    border: 1px solid #fff;
+    box-shadow: 0px 0px 0px 1px #02bdd5;
+}
+.main_pagination > div.prev{
+    float: left;
+}
+.main_pagination > div.next{
+    float: right;
+}
+
+.single-post{
+    padding: inherit;
+}
+.single_post_section{
+    padding: 80px 0 20px;
+}
+
+.searchform .screen-reader-text{
+    position: absolute;
+    left: -99999px;
+}
+
+.contact-form label{
+    font-weight: 100;
+}
+.contact-form label .screen-reader-text{
+    position: absolute;
+    left: -99999px;
+}
+.contact-form form div{
+    width: 100%;
+}
+.contact-form form label{
+    width: 100%;
+}
+.contact-form form input{
+    width: 100%;
+}
+.contact-form form input[type=submit]{
+    color: #fff;
+    outline: none;
+    background-color: #02bdd5 !important;
+    width: auto;
+}

@@ -1,0 +1,57 @@
+.comments{
+	list-style-type: none;
+}
+.comments > .comment{
+	border: 1px solid #dedede;
+	padding: 30px 20px;
+	margin-bottom: 20px;
+}
+.comments ol{
+	list-style-type: none;
+}
+.comments ol.children li{
+	margin: 20px 0;
+	padding-top: 20px;
+	border-top: 1px solid #eee;
+}
+
+.comment-body{}
+.comment-body .comment-author{}
+.comment-body .comment-author img{
+	float: left;
+	padding-right: 10px;
+}
+.comment-body .comment-author .fn{
+	font-family: "Roboto Condensed", sans-serif;
+	margin-top: 0;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1.1;
+	font-style: inherit;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+.comment-body .comment-author .says{
+	display: none;
+}
+.comment-body .commentmetadata a{
+	font-family: "Roboto", sans-serif;
+    line-height: 22px;
+    font-size: 16px;
+	font-weight: 300;
+	color: #777;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+.comment-awaiting-moderation{
+	margin: 10px 0;
+	display: inline-block;
+}
+.comment-body p{
+	margin-left: 105px;
+}
+.reply a{
+	color: #02bdd5;
+	font-size: 12px;
+	margin-left: 105px;
+}
